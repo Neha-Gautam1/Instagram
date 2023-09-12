@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Post</title>
+	<style>
+		button{
+			color:white;
+			background:maroon;
+			padding:0.5rem;
+			border:none;
+			border-radius:0.5rem;
+			font-size:1.2rem;
+		}
+		body{
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+<h2>Edit your post</h2>
+<p>	Post id:<%=post.id%></p>
+<p>Post Username: @<%=post.username%></p>
+<img src="<%=post.image%>"><br>
+<form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+<textarea rows="10" cols="35" name="content"><%=post.content%></textarea><br>
+<button>Submit</button>
+</form>
+</body>
+</html>
