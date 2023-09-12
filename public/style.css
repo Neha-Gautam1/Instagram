@@ -1,0 +1,92 @@
+*{
+	font-family: sans-serif;
+}
+h1{
+	color:maroon;
+	text-align: center;
+}
+.post{
+	background-color:blanchedalmond;
+	padding: 1.2rem;
+	text-align:center;
+	margin:0.5rem auto;
+	border-radius:0.5rem;
+	width:400px;
+	height:500px;
+}
+.username{
+	font-style:italic;
+}
+button{
+ color:white;
+ background-color: maroon;
+ border:none;
+ padding: 0.8rem;
+ font-size:1.2rem;
+ border-radius:0.5rem;
+ margin:1.5rem;
+}
+a{
+	text-decoration:none;
+	color:maroon;
+	font-size:1.1rem;
+	margin:0.8rem;
+}
+h2{
+	color: maroon;
+}
+.user{
+	font-size:1.2rem;
+	font-weight:500;
+}
+.hero{
+	width:100%;
+	height:70vh;
+	background-color:#d1d1d1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.card{
+	width:400px;
+	background-color:#fff;
+	padding:40px;
+	border-radius:15px;
+	text-align:center;
+	color: #333;
+}
+.card img{
+	width:180px;
+	height:180px;
+	margin-top:40px;
+	margin-bottom:30px;
+}
+label{
+	display:block;
+	width:200px;
+	background-color:#e3362c;
+	color:white;
+	padding: 12px;
+	margin: 10px auto;
+	border-radius:5px;
+	cursor: pointer;
+}
+.card input{
+	display:none;
+}
+.new{
+	min-height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.co{
+	height:400px;
+	width:400px;
+	background-color:#ebebeb;
+	padding:0.7rem;
+	border-radius:0.5rem;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
